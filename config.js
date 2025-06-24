@@ -5,11 +5,11 @@ require('dotenv').config();
 const toBool = (value) => value === "true";
 
 // Owner & Bot Details
-global.owner = process.env.OWNER_NUMBER;
+global.owner = process.env.OWNER_NUMBER; || "923103278551,923030474011"
 global.anitav4 = process.env.BOT_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.ownername = process.env.OWNER_NAME || "David Cyril";
-global.packname = process.env.PACK_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.author = process.env.AUTHOR || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
+global.ownername = process.env.OWNER_NAME || "WHYAFTAB,ZORO>ASAD";
+global.packname = process.env.PACK_NAME || "ZORO>ASAD";
+global.author = process.env.AUTHOR || "WHYAFTAB";
 global.channelname = process.env.CHANNEL_NAME || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
 global.channeljid = process.env.CHANNEL_JID || "120363315231436175@newsletter";
 
@@ -34,7 +34,7 @@ global.autoreact = toBool(process.env.AUTO_REACT);
 global.WELCOME = toBool(process.env.WELCOME);
 
 // Prefix & Other Settings
-global.prefix = process.env.PREFIX || '.';
+global.prefix = process.env.PREFIX || '.,!,?,*';
 global.autobio = toBool(process.env.AUTO_BIO);
 global.ANTI_TEMU = toBool(process.env.ANTI_TEMU);
 global.ANTI_TAG = toBool(process.env.ANTI_TAG);
